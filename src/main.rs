@@ -2,7 +2,6 @@ mod item;
 
 use std::io;
 use crate::item::{Item, ItemCollection};
-//use crate::item_collection::{Item, ItemCollection};
 
 fn main() {
     let mut item_collection: ItemCollection = ItemCollection::new();
